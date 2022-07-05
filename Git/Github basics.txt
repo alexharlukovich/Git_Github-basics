@@ -1,0 +1,55 @@
+A. Installing Git on Windows
+
+1. Enter https://git-scm.com/
+2. Download latest version
+        ***if you have an installed git on your PC, you can update it for latest version:
+        --use "win + R" and print "git update-git-for-windows"
+
+B. Configuration .gitconfig
+
+1. Let's configure our git:
+        --use "win + R" and print " git config --global user.name "*your name*" "
+        and the second command " git config --global user.email "*your email*" "
+2. To check our configuration
+        --use "win + R" and print "type .\.gitconfig"
+
+C. Work with local repositories
+
+1. Create project's data base:
+        --in console select project's folder and print "git init ."
+
+2. To check created folders use command:
+        -- "dir", "ll .git"
+
+3. To check project's git status use command:
+        -- "git status"
+
+4. To make project's commit use command:
+        -- "git add *" if you want to add all files or "git add <filename>" if you want to add a specific file
+        -- " git commit -m "always must be message!" "
+
+5. History of changing, .gitignore and file recovery
+   To check history of changing use command:
+        -- "git log" - for all changings
+        -- "git log -1" for last changing
+        -- "git log -1 -p" what was done in this commit
+        -- "git checkout -- <filename>" - to discard the changes in file
+        -- "git diff -- staged" - to check differences between files in commits
+   To create gitignore use command:
+        -- "nano .gitignore" and add filenames for igmore in it
+
+D. Uploading a project to Github. -git push
+
+1. Create a new repository on Github
+
+2. Clone repository:
+        -- button "code" > HTTPS > copy link
+        -- cmd or terminal: use command "git clone + copied link"
+
+3. For uploading project on github use command:
+        -- "git push origin"
+
+
+
+
+
